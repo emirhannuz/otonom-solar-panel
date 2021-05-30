@@ -63,9 +63,9 @@ void loop() {
     Neden bu if var?
       - Bu if sayesinde LDR'nın bulunduğu konumdaki ışık değeri 
        THRESHOLD değerinin altına düştüğü an x ve y eksenleri tekrar taranacak ve 
-       bu THRESHOLD değerinden büyük bir bulmaya çalışacak.
+       bu THRESHOLD değerinden büyük bir değer bulmaya çalışacak.
        Fakat LDR'nin bulunduğu konumdaki ışık değeri bu THRESHOLD değerinin altına düşmez ise
-       panel sürekli olarak aynı konuma bakacak.
+       panel baktığı açıyı değiştirmeyecek.
   */
   if (light < THRESHOLD) {
     
